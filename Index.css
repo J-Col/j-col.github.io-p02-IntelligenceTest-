@@ -1,0 +1,27 @@
+h1
+{
+  text-align: center;
+  font-family: Arial;
+  font-size: 150px;
+  color: #006400;
+}
+body
+{
+    background-color: #778899;
+}
+.beginButton
+{
+  background-color: #4CAF50;
+  padding: 16px 30px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 35px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  right: 885px;
+  bottom: 400px;
+}
