@@ -1,3 +1,4 @@
+//Joshua Colclazier
 function validate()
 {
   var usersAnswer = document.getElementById("userAnswer").value;
