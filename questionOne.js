@@ -6,16 +6,15 @@ function validate()
   {
      return window.alert("Must answer in numbers");
   }
-  if (usersAnswer.length < 4)
-  {
-    return window.alert("Incorrect! Try Again!");
-  }
-  else if (usersAnswer.length > 4)
+  if (usersAnswer.length < 4 || usersAnswer.length > 4)
   {
     return window.alert("Incorrect! Try Again!");
   }
   if (usersAnswer.includes("1626"))
   {
-    window.alert("Correct! Next Question!");
+    return window.alert("Correct! Next Question!");
+  } else
+  {
+    return window.alert("Incorrect! Try Again!");
   }
 }
