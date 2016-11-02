@@ -1,0 +1,64 @@
+h1
+{
+  text-align: center;
+  font-family: Arial;
+  font-size: 150px;
+  color: #006400;
+}
+body
+{
+    background-color: #778899;
+}
+.nextButton
+{
+  background-color: #4CAF50;
+  padding: 16px 30px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 35px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+  color: #E0E0E0;
+}
+p
+{
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+  color: #E0E0E0;
+}
+.userAnswer
+{
+  font-size: 50px;
+}
+.checkAnswer
+{
+  background-color: #4CAF50;
+  padding: 16px 30px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 35px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  right: 200px;
+  bottom: 0px;
+}

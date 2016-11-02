@@ -7,6 +7,7 @@
     <title>Intelligence Test</title>
   </head>
   <body lang="en-US">
+    <script type="text/javascript" src="questionOne.js"></script>
     <h1>Question One</h1>
     <ul>
       <li> 8,2 -> 64410</li>
@@ -15,7 +16,11 @@
       <li> 6,3 -> 21629</li>
       <li> 14,2 -> 196716</li>
     </ul>
-    <a href="questionTwo" class="beginButton">
-      Begin</a>
+    <p>What is the correct answer?</P>
+    <p> 4,2 -> <input type="text" class="userAnswer" id="userAnswer">
+    </p>
+    <a href="questionTwo.html" class="nextButton">
+      Next</a>
+    <button class="checkAnswer" onclick="validate()">Submit</Button>
   </body>
 </html>
