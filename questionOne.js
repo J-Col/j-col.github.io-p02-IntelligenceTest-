@@ -10,11 +10,22 @@ function validate()
   {
     return window.alert("Incorrect! Try Again!");
   }
-  if (usersAnswer.includes("1626"))
-  {
-    return window.alert("Correct! Next Question!");
-  } else
+  else if
   {
     return window.alert("Incorrect! Try Again!");
   }
 }
+function validateCorrect()
+{
+  if (usersAnswer.includes("1626"))
+  {
+    return window.alert("Correct! Next Question!");
+  }
+  setCookie("correctAnswer",)
+}
+function checkoutOrders()
+{
+  var numCorrect = getCookie("correctAnswer");
+
+}
+//Test Cookies in FireFox
