@@ -1,7 +1,5 @@
 //Joshua Colclazier
-function validate ()
-{
-function checkAnswer()
+function checkAnswer(validate)
 {
   var usersAnswer = document.getElementById("userAnswer").value;
   if (isNaN(usersAnswer))
@@ -12,17 +10,16 @@ function checkAnswer()
   {
     return window.alert("Incorrect! Try Again!");
   }
-  else
+  else if ()
   {
     return window.alert("Incorrect! Try Again!");
   }
 }
 function validateCorrect()
 {
-  if (usersAnswer.includes("1626"))
+  if (usersAnswer.includes("4800"))
   {
     return window.alert("Correct! Next Question!");
   }
-}
 }
 //Test Cookies in FireFox
