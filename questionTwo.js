@@ -10,15 +10,13 @@ function validate()
   {
     return window.alert("Incorrect! Try Again!");
   }
-  else if
-  {
-    return window.alert("Incorrect! Try Again!");
-  }
-}
-function validateCorrect()
-{
   if (usersAnswer.includes("60416"))
   {
     return window.alert("Correct! Next Question!");
   }
+  else
+  {
+    return window.alert("Incorrect! Try Again!");
+  }
+}
 //Test Cookies in FireFox

@@ -1,25 +1,21 @@
 //Joshua Colclazier
-function checkAnswer(validate)
+function validate()
 {
   var usersAnswer = document.getElementById("userAnswer").value;
   if (isNaN(usersAnswer))
   {
      return window.alert("Must answer in numbers");
   }
-  if (usersAnswer.length < 4 || usersAnswer.length > 4)
+  if (usersAnswer.length < 5 || usersAnswer.length > 5)
   {
     return window.alert("Incorrect! Try Again!");
   }
-  else if ()
-  {
-    return window.alert("Incorrect! Try Again!");
-  }
-}
-function validateCorrect()
-{
   if (usersAnswer.includes("4800"))
   {
     return window.alert("Correct! Next Question!");
   }
+  else
+  {
+    return window.alert("Incorrect! Try Again!");
+  }
 }
-//Test Cookies in FireFox
